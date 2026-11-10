@@ -1,0 +1,2359 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>عيد زواج سعيد · سعيد عمر الفاروق &amp; نعمة هاشم · ٣١ عاماً</title>
+  <meta name="description" content="واحدٌ وثلاثون عاماً من الحبّ… سعيد عمر الفاروق ونعمة هاشم. عيد زواجٍ سعيد.">
+  <meta name="theme-color" content="#06120f">
+  <meta property="og:title" content="عيد زواج سعيد · سعيد عمر الفاروق &amp; نعمة هاشم">
+  <meta property="og:description" content="واحدٌ وثلاثون عاماً من الحبّ… وما زال القلب يقول: أنتِ البداية.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_LB">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%99%A5%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700&family=Aref+Ruqaa:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #06120f;
+      --bg-2: #0a1c17;
+      --bg-3: #0e241e;
+      --gold: #d9b56a;
+      --gold-2: #f0d9a4;
+      --gold-3: #b68a45;
+      --ivory: #f7f0e1;
+      --muted: #b8ad99;
+      --line: rgba(217, 181, 106, .18);
+      --line-strong: rgba(217, 181, 106, .38);
+      --font-display: 'Aref Ruqaa', 'Amiri', serif;
+      --font-body: 'Almarai', 'Tajawal', sans-serif;
+      --font-latin: 'Cormorant Garamond', 'Times New Roman', serif;
+      --ease: cubic-bezier(.22, .61, .36, 1);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+      overflow-x: hidden; /* يمنع التمرير الأفقي */
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      overflow-x: hidden; /* يمنع التمرير الأفقي */
+      background:
+        radial-gradient(1200px 800px at 50% -10%, rgba(217, 181, 106, .09), transparent 60%),
+        radial-gradient(900px 700px at 100% 28%, rgba(31, 79, 63, .32), transparent 70%),
+        radial-gradient(900px 700px at 0% 82%, rgba(31, 79, 63, .22), transparent 70%),
+        var(--bg);
+      color: var(--ivory);
+      font-family: var(--font-body);
+      font-weight: 300;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    body.is-open { overflow-y: auto; }
+
+    ::selection { background: var(--gold); color: #07130f; }
+
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #07130f; }
+    ::-webkit-scrollbar-thumb { background: rgba(217, 181, 106, .35); border-radius: 99px; }
+
+    a { color: inherit; }
+    button { font: inherit; }
+    :focus-visible { outline: 1px solid var(--gold); outline-offset: 4px; }
+
+    #dust {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .grain {
+      position: fixed;
+      inset: 0;
+      z-index: 3;
+      pointer-events: none;
+      opacity: .032;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
+    }
+
+    .progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      z-index: 70;
+      background: linear-gradient(90deg, var(--gold-3), var(--gold-2), var(--gold-3));
+      transform: scaleX(0);
+      transform-origin: right;
+      will-change: transform;
+    }
+
+    .eyebrow {
+      margin: 0;
+      font-family: var(--font-body);
+      font-size: .68rem;
+      font-weight: 400;
+      letter-spacing: .42em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    .divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      width: min(340px, 72%);
+      margin: 1.5rem auto;
+    }
+
+    .divider .line {
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--line-strong), transparent);
+    }
+
+    .divider svg { width: 13px; height: 13px; fill: var(--gold); opacity: .85; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: .6rem;
+      padding: .95rem 2.2rem;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      font-family: var(--font-body);
+      font-size: .9rem;
+      font-weight: 400;
+      letter-spacing: .04em;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform .35s var(--ease), box-shadow .35s var(--ease), background .35s var(--ease), color .35s var(--ease), border-color .35s var(--ease);
+    }
+
+    .btn-gold {
+      background: linear-gradient(135deg, #f4e2b8, #d9b56a 55%, #b68a45);
+      color: #08130f;
+      box-shadow: 0 12px 34px rgba(217, 181, 106, .16);
+    }
+
+    .btn-gold:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 18px 46px rgba(217, 181, 106, .28);
+    }
+
+    .btn-ghost {
+      background: transparent;
+      border-color: var(--line-strong);
+      color: var(--gold-2);
+    }
+
+    .btn-ghost:hover {
+      background: rgba(217, 181, 106, .07);
+      transform: translateY(-2px);
+    }
+
+    /* ============ INTRO ============ */
+    #intro {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      isolation: isolate;
+    }
+
+    .intro-panel {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 50.4%;
+      background:
+        radial-gradient(90% 70% at 50% 48%, rgba(217, 181, 106, .055), transparent 62%),
+        linear-gradient(180deg, #081713 0%, #0b201a 55%, #06110e 100%);
+      transition: transform 1.3s var(--ease);
+      will-change: transform;
+    }
+
+    .intro-panel.left { left: 0; }
+    .intro-panel.right { right: 0; }
+
+    .intro-panel::after {
+      content: '';
+      position: absolute;
+      inset: 18px;
+      border: 1px solid rgba(217, 181, 106, .08);
+      pointer-events: none;
+    }
+
+    .intro-panel.left::after { border-left: 0; }
+    .intro-panel.right::after { border-right: 0; }
+
+    #intro.open .intro-panel.left { transform: translateX(-101%); }
+    #intro.open .intro-panel.right { transform: translateX(101%); }
+
+    .intro-seam {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      width: 1px;
+      z-index: 1;
+      background: linear-gradient(180deg, transparent, rgba(240, 217, 164, .5), transparent);
+      transition: opacity .5s ease .15s;
+    }
+
+    #intro.open .intro-seam { opacity: 0; }
+
+    .intro-content {
+      position: relative;
+      z-index: 2;
+      width: min(92vw, 640px);
+      padding: 2rem 1.25rem;
+      text-align: center;
+      transition: opacity .55s ease, transform .8s var(--ease);
+    }
+
+    #intro.open .intro-content {
+      opacity: 0;
+      transform: scale(1.05);
+      pointer-events: none;
+    }
+
+    .intro-kicker {
+      margin: 0 0 1.5rem;
+      font-size: .72rem;
+      letter-spacing: .32em;
+      color: var(--gold);
+    }
+
+    .intro-ring {
+      display: block;
+      width: clamp(160px, 30vw, 220px);
+      height: auto;
+      margin: 0 auto 1.2rem;
+      overflow: visible;
+    }
+
+    .ring-draw {
+      stroke-dasharray: 666;
+      stroke-dashoffset: 666;
+    }
+
+    #intro.enter .ring-draw { animation: drawRing 2.4s .3s var(--ease) forwards; }
+
+    .ring-dash {
+      transform-origin: 120px 120px;
+      animation: spin 44s linear infinite;
+    }
+
+    .ring-heart {
+      transform-origin: 120px 110px;
+      animation: heartPulse 3.4s ease-in-out infinite;
+    }
+
+    .ring-num {
+      font-family: var(--font-latin);
+      font-size: 25px;
+      font-weight: 500;
+      fill: var(--gold-2);
+      letter-spacing: .02em;
+    }
+
+    .intro-names {
+      margin: 0;
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: clamp(1.75rem, 5.4vw, 2.7rem);
+      line-height: 1.55;
+      color: var(--ivory);
+    }
+
+    .intro-names .amp {
+      display: inline-block;
+      margin: 0 .35em;
+      font-family: var(--font-latin);
+      font-style: italic;
+      font-size: .8em;
+      color: var(--gold);
+      vertical-align: .08em;
+    }
+
+    .intro-sub {
+      margin: .8rem 0 0;
+      font-size: .82rem;
+      letter-spacing: .12em;
+      color: var(--muted);
+    }
+
+    .intro-sub strong {
+      display: block;
+      margin-bottom: .2rem;
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: clamp(1.05rem, 2.6vw, 1.35rem);
+      letter-spacing: 0;
+      color: var(--gold-2);
+    }
+
+    .btn-open {
+      position: relative;
+      margin-top: 2.1rem;
+      padding: 1rem 2.7rem;
+      overflow: hidden;
+      border: 1px solid var(--line-strong);
+      border-radius: 999px;
+      background: linear-gradient(180deg, rgba(217, 181, 106, .13), rgba(217, 181, 106, .03));
+      color: var(--gold-2);
+      font-family: var(--font-body);
+      font-size: .92rem;
+      letter-spacing: .1em;
+      cursor: pointer;
+      box-shadow: 0 0 0 1px rgba(217, 181, 106, .05), 0 16px 50px rgba(0, 0, 0, .35);
+      transition: background .4s var(--ease), color .4s var(--ease), box-shadow .4s var(--ease), transform .4s var(--ease);
+    }
+
+    .btn-open::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: -60%;
+      width: 45%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .35), transparent);
+      transform: skewX(-18deg);
+      animation: sweep 4.5s 2s ease-in-out infinite;
+    }
+
+    .btn-open:hover {
+      background: var(--gold);
+      color: #08130f;
+      box-shadow: 0 0 36px rgba(217, 181, 106, .35);
+      transform: translateY(-2px);
+    }
+
+    .btn-open .heart {
+      display: inline-block;
+      margin-inline-start: .45em;
+      animation: heartPulse 1.9s ease-in-out infinite;
+    }
+
+    #intro.enter .intro-kicker { animation: fadeUp 1s .35s both; }
+    #intro.enter .intro-ring { animation: fadeIn 1.5s .1s both; }
+    #intro.enter .intro-names { animation: fadeUp 1.1s .8s both; }
+    #intro.enter .intro-sub { animation: fadeUp 1.1s 1s both; }
+    #intro.enter .btn-open { animation: fadeUp 1.1s 1.2s both; }
+
+    @keyframes drawRing { to { stroke-dashoffset: 0; } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes heartPulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.06); } }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes sweep { 0%, 55% { left: -60%; } 100% { left: 130%; } }
+
+    /* ============ HERO ============ */
+    main { position: relative; z-index: 1; }
+
+    .hero {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 6.5rem 1.5rem 7rem;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .hero::before,
+    .hero::after {
+      content: '';
+      position: absolute;
+      width: 62vw;
+      height: 62vw;
+      max-width: 820px;
+      max-height: 820px;
+      border-radius: 50%;
+      filter: blur(60px);
+      opacity: .55;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .hero::before {
+      top: -22%;
+      right: -18%;
+      background: radial-gradient(circle, rgba(28, 92, 71, .32), transparent 66%);
+      animation: drift 22s ease-in-out infinite alternate;
+    }
+
+    .hero::after {
+      bottom: -30%;
+      left: -20%;
+      background: radial-gradient(circle, rgba(217, 181, 106, .12), transparent 66%);
+      animation: drift 26s -9s ease-in-out infinite alternate-reverse;
+    }
+
+    @keyframes drift {
+      from { transform: translate3d(0, 0, 0) scale(1); }
+      to { transform: translate3d(4%, 3%, 0) scale(1.08); }
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: min(94vw, 760px, 92vh);
+      margin: 0;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      opacity: .5;
+      will-change: transform;
+    }
+
+    .hero-orbit svg { display: block; width: 100%; height: auto; overflow: visible; }
+
+    .orbit-spin { transform-origin: 400px 400px; animation: spin 150s linear infinite; }
+    .orbit-spin-rev { transform-origin: 400px 400px; animation: spin 110s linear infinite reverse; }
+
+    .hero-inner { position: relative; z-index: 2; width: min(100%, 900px); }
+
+    .hero-kicker { margin: 0 0 .5rem; }
+
+    .hero-date {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: .9rem;
+      margin: 0 0 1.6rem;
+      font-family: var(--font-latin);
+      font-size: .9rem;
+      letter-spacing: .28em;
+      color: var(--muted);
+    }
+
+    .hero-date i {
+      display: block;
+      width: 34px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--line-strong), transparent);
+    }
+
+    .hero-names {
+      margin: 0;
+      font-family: var(--font-display);
+      font-weight: 400;
+      line-height: 1.32;
+    }
+
+    .name-mask {
+      display: block;
+      overflow: hidden;
+      padding: .1em .08em .16em;
+      margin-bottom: -.12em;
+    }
+
+    .name-mask > span {
+      display: block;
+      transform: translateY(116%);
+      transition: transform 1.35s var(--ease);
+      will-change: transform;
+    }
+
+    .name-1 {
+      font-size: clamp(1.8rem, 6vw, 4.5rem);
+      color: var(--ivory);
+      text-shadow: 0 10px 60px rgba(0, 0, 0, .45);
+    }
+
+    .name-2 {
+      font-size: clamp(2.2rem, 7.5vw, 5.6rem);
+      background: linear-gradient(100deg, #f0d9a4 0%, #d9b56a 32%, #fff4d9 50%, #d9b56a 68%, #f0d9a4 100%);
+      background-size: 220% 100%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+      animation: shimmer 8s linear infinite;
+      filter: drop-shadow(0 10px 40px rgba(217, 181, 106, .16));
+    }
+
+    @keyframes shimmer { to { background-position: -220% 0; } }
+
+    body.is-open .name-1 > span { transform: none; transition-delay: .9s; }
+    body.is-open .name-2 > span { transform: none; transition-delay: 1.12s; }
+
+    .amp {
+      display: block;
+      margin: .06em 0 .1em;
+      font-family: var(--font-latin);
+      font-style: italic;
+      font-weight: 300;
+      font-size: clamp(2rem, 5vw, 4rem);
+      line-height: 1;
+      color: var(--gold);
+      opacity: .9;
+    }
+
+    body.is-open .amp { animation: fadeIn 1.2s 1.5s both; }
+
+    .hero-years {
+      margin: 1.6rem 0 0;
+      font-size: clamp(.78rem, 1.6vw, .9rem);
+      letter-spacing: .16em;
+      color: var(--gold-2);
+    }
+
+    .hero-years .num {
+      font-family: var(--font-display);
+      font-size: 1.35em;
+      color: var(--gold);
+    }
+
+    .hero-tagline {
+      max-width: 34rem;
+      margin: 1.1rem auto 0;
+      font-size: clamp(.95rem, 1.8vw, 1.1rem);
+      line-height: 2;
+      color: var(--muted);
+    }
+
+    body.is-open .hero-kicker { animation: fadeUp 1.2s .8s both; }
+    body.is-open .hero-date { animation: fadeUp 1.2s .9s both; }
+    body.is-open .hero-years { animation: fadeUp 1.2s 1.55s both; }
+    body.is-open .hero-tagline { animation: fadeUp 1.2s 1.7s both; }
+    body.is-open .scroll-cue { animation: fadeIn 1.4s 2s both; }
+
+    .scroll-cue {
+      position: absolute;
+      bottom: max(1.5rem, env(safe-area-inset-bottom));
+      left: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: .75rem;
+      transform: translateX(-50%);
+      color: var(--muted);
+      font-size: .66rem;
+      letter-spacing: .18em;
+      text-decoration: none;
+      opacity: 0;
+    }
+
+    .scroll-cue .line {
+      position: relative;
+      width: 1px;
+      height: 48px;
+      overflow: hidden;
+      background: rgba(217, 181, 106, .16);
+    }
+
+    .scroll-cue .line::after {
+      content: '';
+      position: absolute;
+      top: -45%;
+      left: 0;
+      width: 100%;
+      height: 45%;
+      background: var(--gold-2);
+      animation: scrollDot 2.4s ease-in-out infinite;
+    }
+
+    @keyframes scrollDot {
+      0% { top: -45%; }
+      60%, 100% { top: 110%; }
+    }
+
+    /* ============ SECTION BASE ============ */
+    .section {
+      position: relative;
+      padding: clamp(4rem, 10vw, 8.5rem) 1.5rem;
+    }
+
+    .container { width: min(1080px, 100%); margin-inline: auto; }
+
+    .section-head { text-align: center; }
+
+    .section-head h2 {
+      margin: .65rem 0 0;
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: clamp(1.8rem, 4.5vw, 3.3rem);
+      line-height: 1.45;
+      color: var(--ivory);
+    }
+
+    .section-head h2 em {
+      font-style: normal;
+      color: var(--gold-2);
+    }
+
+    [data-reveal] {
+      opacity: 0;
+      transform: translateY(30px);
+      filter: blur(6px);
+      transition: opacity 1.1s var(--ease), transform 1.1s var(--ease), filter 1.1s var(--ease);
+      transition-delay: var(--d, 0s);
+    }
+
+    [data-reveal].in {
+      opacity: 1;
+      transform: none;
+      filter: none;
+    }
+
+    /* ============ STORY ============ */
+    .story-card {
+      position: relative;
+      max-width: 760px;
+      margin: 3.2rem auto 0;
+      padding: clamp(1.8rem, 5vw, 3.8rem);
+      border: 1px solid var(--line);
+      background:
+        radial-gradient(90% 80% at 50% 0%, rgba(217, 181, 106, .045), transparent 70%),
+        linear-gradient(180deg, rgba(255, 255, 255, .022), rgba(255, 255, 255, 0));
+      text-align: center;
+    }
+
+    .story-card .corner {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      border-color: rgba(217, 181, 106, .45);
+      border-style: solid;
+    }
+
+    .corner.c1 { top: 13px; right: 13px; border-width: 1px 1px 0 0; }
+    .corner.c2 { top: 13px; left: 13px; border-width: 1px 0 0 1px; }
+    .corner.c3 { bottom: 13px; right: 13px; border-width: 0 1px 1px 0; }
+    .corner.c4 { bottom: 13px; left: 13px; border-width: 0 0 1px 1px; }
+
+    .story-card .mini-star {
+      width: 18px;
+      height: 18px;
+      margin: 0 auto 1.6rem;
+      fill: var(--gold);
+      opacity: .75;
+    }
+
+    .story-text {
+      margin: 0;
+      font-size: clamp(1rem, 1.7vw, 1.2rem);
+      line-height: 2;
+      color: #ddd4c2;
+    }
+
+    .story-text span { color: var(--gold-2); }
+
+    .story-text .line-gap { display: block; height: .55em; }
+
+    .story-sign {
+      margin: 2rem 0 0;
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      color: var(--gold);
+      opacity: .85;
+    }
+
+    /* ============ DUO PROFILES ============ */
+    .duo-section { position: relative; }
+
+    .duo-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      max-width: 700px;
+      margin: 3.5rem auto 0;
+      padding: 0 1rem;
+    }
+
+    .duo-card {
+      position: relative;
+      text-align: center;
+    }
+
+    .duo-photo {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      padding: 8px;
+      background: linear-gradient(135deg, var(--gold-2), var(--gold-3));
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      transition: transform 0.5s var(--ease);
+    }
+
+    .duo-photo::before {
+      content: '';
+      position: absolute;
+      inset: 4px;
+      border: 2px dashed rgba(6, 18, 15, 0.4);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .duo-photo img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 15%;
+      border-radius: 50%;
+      filter: sepia(0.2) contrast(1.05) brightness(0.9);
+      transition: filter 0.5s var(--ease);
+    }
+
+    .duo-card:hover .duo-photo {
+      transform: translateY(-10px) scale(1.03);
+    }
+
+    .duo-card:hover .duo-photo img {
+      filter: sepia(0) contrast(1.05) brightness(1);
+    }
+
+    .duo-name {
+      margin: 1.2rem 0 0;
+      font-family: var(--font-display);
+      font-size: clamp(1.2rem, 3vw, 1.6rem);
+      color: var(--gold-2);
+    }
+
+    .duo-role {
+      margin: 0.2rem 0 0;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+    }
+
+    /* ============ YEARS / 31 ============ */
+    .years {
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .years::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: min(90vw, 700px);
+      aspect-ratio: 1;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(217, 181, 106, .08), transparent 65%);
+      pointer-events: none;
+    }
+
+    .years-orbit {
+      position: relative;
+      display: grid;
+      place-items: center;
+      width: min(78vw, 400px);
+      aspect-ratio: 1;
+      margin: 2.8rem auto 0;
+    }
+
+    .orbit-ring {
+      position: absolute;
+      inset: 0;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+    }
+
+    .orbit-ring.dashed {
+      inset: 13px;
+      border-style: dashed;
+      border-color: rgba(217, 181, 106, .16);
+      animation: spin 90s linear infinite;
+    }
+
+    .orbit-ring.inner {
+      inset: 42px;
+      border-color: rgba(217, 181, 106, .1);
+    }
+
+    .year-dot {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--gold);
+      box-shadow: 0 0 9px rgba(217, 181, 106, .75);
+      opacity: .14;
+      animation: dotGlow 5.5s ease-in-out infinite;
+      animation-delay: calc(var(--i) * .11s);
+    }
+
+    @keyframes dotGlow {
+      0%, 100% { opacity: .1; }
+      45% { opacity: .85; }
+    }
+
+    .years-number {
+      position: relative;
+      z-index: 2;
+      margin: 0;
+      font-family: var(--font-latin);
+      font-weight: 300;
+      font-size: clamp(6rem, 20vw, 12.5rem);
+      line-height: .8;
+      letter-spacing: -.02em;
+      background: linear-gradient(180deg, #fff2d3 0%, #e5c681 38%, #b68a45 100%);
+      background-size: 100% 200%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 18px 50px rgba(217, 181, 106, .18));
+      animation: numShimmer 9s ease-in-out infinite alternate;
+    }
+
+    @keyframes numShimmer {
+      from { background-position: 50% 0%; }
+      to { background-position: 50% 100%; }
+    }
+
+    .years-label {
+      position: absolute;
+      bottom: 21%;
+      left: 50%;
+      z-index: 2;
+      transform: translateX(-50%);
+      font-family: var(--font-display);
+      font-size: clamp(1rem, 2.6vw, 1.4rem);
+      color: var(--gold-2);
+      white-space: nowrap;
+    }
+
+    .years h2 {
+      margin: 1.2rem 0 0;
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: clamp(1.4rem, 3.4vw, 2.3rem);
+      color: var(--ivory);
+    }
+
+    .years-note {
+      max-width: 34rem;
+      margin: .8rem auto 0;
+      font-size: .95rem;
+      line-height: 1.8;
+      color: var(--muted);
+    }
+
+    .counter {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: .5rem;
+      max-width: 860px;
+      margin: 3.2rem auto 0;
+    }
+
+    .counter-cell {
+      padding: 1rem .3rem .8rem;
+      border: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255, 255, 255, .022), rgba(255, 255, 255, 0));
+    }
+
+    .counter-value {
+      display: block;
+      min-height: 1.1em;
+      font-family: var(--font-latin);
+      font-weight: 400;
+      font-size: clamp(1.1rem, 2.9vw, 2.05rem);
+      line-height: 1.1;
+      letter-spacing: .01em;
+      color: var(--gold-2);
+      font-variant-numeric: tabular-nums lining-nums;
+      direction: ltr;
+    }
+
+    .counter-label {
+      display: block;
+      margin-top: .45rem;
+      font-size: .6rem;
+      letter-spacing: .1em;
+      color: var(--muted);
+    }
+
+    .counter-note {
+      margin: 1.2rem 0 0;
+      font-size: .75rem;
+      letter-spacing: .04em;
+      color: rgba(184, 173, 153, .75);
+    }
+
+    /* ============ TIMELINE ============ */
+    .timeline-track {
+      position: relative;
+      max-width: 880px;
+      margin: 3.8rem auto 0;
+      padding: .5rem 0;
+    }
+
+    .timeline-track::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 50%;
+      width: 1px;
+      background: linear-gradient(180deg, transparent, var(--line-strong) 12%, var(--line-strong) 88%, transparent);
+    }
+
+    .milestone {
+      position: relative;
+      width: calc(50% - 2.5rem);
+      margin-bottom: 2.4rem;
+      padding: 1.3rem 1.5rem;
+      border: 1px solid transparent;
+      text-align: right;
+      transition: border-color .4s ease, background .4s ease, transform .4s var(--ease);
+    }
+
+    .milestone:last-child { margin-bottom: 0; }
+
+    .milestone:nth-child(odd) { margin-left: auto; }
+    .milestone:nth-child(even) { margin-right: auto; }
+
+    .milestone:hover {
+      border-color: var(--line);
+      background: rgba(255, 255, 255, .018);
+      transform: translateY(-3px);
+    }
+
+    .milestone::before {
+      content: '';
+      position: absolute;
+      top: 2.15rem;
+      width: 2.5rem;
+      height: 1px;
+      background: linear-gradient(90deg, var(--line-strong), transparent);
+    }
+
+    .milestone:nth-child(odd)::before {
+      left: -2.5rem;
+      background: linear-gradient(270deg, var(--line-strong), transparent);
+    }
+
+    .milestone:nth-child(even)::before {
+      right: -2.5rem;
+      background: linear-gradient(90deg, var(--line-strong), transparent);
+    }
+
+    .milestone::after {
+      content: '';
+      position: absolute;
+      top: 2.1rem;
+      width: 9px;
+      height: 9px;
+      border: 1px solid var(--gold);
+      border-radius: 50%;
+      background: var(--bg);
+      box-shadow: 0 0 0 4px rgba(217, 181, 106, .07), 0 0 18px rgba(217, 181, 106, .3);
+    }
+
+    .milestone:nth-child(odd)::after {
+      left: -2.5rem;
+      transform: translateX(-50%);
+    }
+
+    .milestone:nth-child(even)::after {
+      right: -2.5rem;
+      transform: translateX(50%);
+    }
+
+    .milestone .year {
+      font-family: var(--font-latin);
+      font-size: clamp(1.8rem, 4vw, 2.9rem);
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: .04em;
+      color: var(--gold);
+    }
+
+    .milestone h3 {
+      margin: .35rem 0 .55rem;
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.4rem;
+      color: var(--ivory);
+    }
+
+    .milestone p {
+      margin: 0;
+      font-size: .9rem;
+      line-height: 1.8;
+      color: var(--muted);
+    }
+
+    /* Heart Shape Images in Timeline */
+    .milestone.has-img {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+    }
+
+    .milestone-text {
+      flex: 1;
+    }
+
+    .milestone-img {
+      position: relative;
+      width: 120px;
+      height: 120px;
+      flex: none;
+      background: var(--gold);
+      clip-path: url(#heartClip);
+      transition: transform 0.4s var(--ease);
+    }
+
+    .milestone-img::before {
+      content: '';
+      position: absolute;
+      inset: 4px;
+      background: var(--bg);
+      clip-path: url(#heartClip);
+      z-index: 1;
+    }
+
+    .milestone-img img {
+      position: absolute;
+      inset: 6px;
+      width: calc(100% - 12px);
+      height: calc(100% - 12px);
+      object-fit: cover; 
+      object-position: center 15%; 
+      clip-path: url(#heartClip);
+      z-index: 2;
+      filter: sepia(0.2) contrast(1.05) brightness(0.9);
+    }
+
+    .milestone.has-img:hover .milestone-img {
+      transform: scale(1.08);
+    }
+
+    /* ============ 3D ALBUM ============ */
+    .album-section {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .album-deck {
+      position: relative;
+      width: min(85vw, 380px);
+      aspect-ratio: 3 / 4;
+      margin: 3rem auto 0;
+      perspective: 1500px;
+    }
+
+    .album-card {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      background: #f4ebd9;
+      border-radius: 6px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+      transform-origin: center right;
+      transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.6s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 15px;
+      cursor: pointer;
+      transform-style: preserve-3d;
+    }
+
+    .album-card::before, .album-card::after {
+      content: '';
+      position: absolute;
+      width: 70px;
+      height: 20px;
+      background: rgba(255, 255, 255, 0.5);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      z-index: 10;
+    }
+    .album-card::before {
+      top: -8px;
+      right: 15px;
+      transform: rotate(5deg);
+    }
+    .album-card::after {
+      bottom: -8px;
+      left: 15px;
+      transform: rotate(-3deg);
+    }
+
+    .album-card img {
+      width: 100%;
+      height: 85%;
+      object-fit: cover;
+      border: 6px solid #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      filter: sepia(0.2) contrast(1.1);
+    }
+
+    .album-caption {
+      margin-top: 12px;
+      font-family: var(--font-display);
+      font-size: 1rem;
+      color: #5c4a3d;
+      text-align: center;
+    }
+
+    .album-card.is-flipped {
+      transform: rotateY(-180deg);
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .album-card.is-next {
+      transform: translateY(10px) scale(0.95);
+      opacity: 1;
+      z-index: 1;
+    }
+
+    .album-card.is-top {
+      transform: translateY(0) scale(1);
+      opacity: 1;
+      z-index: 5;
+    }
+
+    .album-controls {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .album-btn {
+      background: transparent;
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      padding: 0.7rem 1.2rem;
+      border-radius: 99px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+    }
+
+    .album-btn:hover {
+      background: var(--gold);
+      color: var(--bg);
+    }
+
+    /* ============ QUOTE ============ */
+    .quote-section { text-align: center; }
+
+    .quote-stage {
+      display: grid;
+      place-items: center;
+      min-height: 8rem;
+      max-width: 860px;
+      margin: 1.6rem auto 0;
+      padding: 0 .5rem;
+    }
+
+    .quote-stage blockquote {
+      margin: 0;
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: clamp(1.3rem, 3.6vw, 2.5rem);
+      line-height: 1.8;
+      color: var(--ivory);
+      transition: opacity .45s ease, transform .45s ease;
+    }
+
+    .quote-stage blockquote.fade {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+
+    .quote-dots {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: .6rem;
+      margin-top: 1.8rem;
+    }
+
+    .quote-dot {
+      width: 6px;
+      height: 6px;
+      padding: 0;
+      border: 0;
+      border-radius: 50%;
+      background: rgba(217, 181, 106, .25);
+      cursor: pointer;
+      transition: background .3s ease, transform .3s ease;
+    }
+
+    .quote-dot.active {
+      background: var(--gold);
+      transform: scale(1.35);
+    }
+
+    /* ============ FINALE ============ */
+    .finale {
+      padding-bottom: clamp(4rem, 9vw, 7rem);
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .medallion {
+      position: relative;
+      display: grid;
+      place-items: center;
+      width: clamp(140px, 26vw, 190px);
+      aspect-ratio: 1;
+      margin: 0 auto 2rem;
+      border: 1px solid var(--line-strong);
+      border-radius: 50%;
+    }
+
+    .medallion svg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+    }
+
+    .medallion .med-spin {
+      transform-origin: 100px 100px;
+      animation: spin 70s linear infinite;
+    }
+
+    .medallion .num {
+      position: relative;
+      z-index: 2;
+      margin-top: -.15em;
+      font-family: var(--font-latin);
+      font-size: clamp(3.5rem, 9vw, 5.4rem);
+      font-weight: 300;
+      line-height: 1;
+      background: linear-gradient(180deg, #fff2d3, #d9b56a 55%, #b68a45);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .medallion .lbl {
+      position: absolute;
+      bottom: 22%;
+      z-index: 2;
+      font-family: var(--font-display);
+      font-size: .95rem;
+      color: var(--gold-2);
+    }
+
+    .finale h2 {
+      margin: 0;
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: clamp(1.8rem, 4.8vw, 3.3rem);
+      line-height: 1.5;
+      color: var(--ivory);
+    }
+
+    .finale-text {
+      max-width: 36rem;
+      margin: 1.1rem auto 0;
+      font-size: clamp(.95rem, 1.8vw, 1.1rem);
+      line-height: 2;
+      color: var(--muted);
+    }
+
+    .final-names {
+      margin: 2.4rem 0 0;
+      font-family: var(--font-display);
+      font-size: clamp(1.6rem, 4.2vw, 2.7rem);
+      line-height: 1.6;
+      color: var(--gold-2);
+    }
+
+    .finale-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: .9rem;
+      margin-top: 2.2rem;
+    }
+
+    .final-footer {
+      margin: 4rem 0 0;
+      font-size: .68rem;
+      letter-spacing: .14em;
+      color: rgba(184, 173, 153, .6);
+    }
+
+    /* ============ MUSIC + TOAST + HEARTS ============ */
+    .music-btn {
+      position: fixed;
+      bottom: max(1.4rem, env(safe-area-inset-bottom));
+      left: 1.4rem;
+      z-index: 60;
+      display: grid;
+      place-items: center;
+      width: 48px;
+      height: 48px;
+      padding: 0;
+      border: 1px solid var(--line-strong);
+      border-radius: 50%;
+      background: rgba(6, 18, 15, .72);
+      color: var(--gold-2);
+      cursor: pointer;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .6s ease;
+    }
+
+    body.is-open .music-btn { opacity: 1; pointer-events: auto; }
+
+    .music-btn .bars {
+      display: flex;
+      align-items: flex-end;
+      gap: 3px;
+      height: 15px;
+    }
+
+    .music-btn .bars i {
+      display: block;
+      width: 2px;
+      height: 5px;
+      border-radius: 2px;
+      background: var(--gold-2);
+      transform-origin: bottom;
+    }
+
+    .music-btn.playing .bars i { animation: eq 1.1s ease-in-out infinite; }
+    .music-btn.playing .bars i:nth-child(2) { animation-delay: .18s; }
+    .music-btn.playing .bars i:nth-child(3) { animation-delay: .36s; }
+    .music-btn.playing .bars i:nth-child(4) { animation-delay: .1s; }
+
+    @keyframes eq {
+      0%, 100% { height: 4px; opacity: .6; }
+      50% { height: 15px; opacity: 1; }
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 2rem;
+      left: 50%;
+      z-index: 90;
+      padding: .7rem 1.3rem;
+      border: 1px solid var(--line-strong);
+      border-radius: 999px;
+      background: rgba(6, 18, 15, .92);
+      color: var(--gold-2);
+      font-size: .8rem;
+      white-space: nowrap;
+      transform: translate(-50%, 14px);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .35s ease, transform .35s ease;
+    }
+
+    .toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+    .click-heart {
+      position: fixed;
+      z-index: 80;
+      color: var(--gold-2);
+      font-size: 14px;
+      line-height: 1;
+      pointer-events: none;
+      text-shadow: 0 0 12px rgba(217, 181, 106, .65);
+      animation: heartFloat 1.35s ease-out forwards;
+    }
+
+    @keyframes heartFloat {
+      0% { opacity: 1; transform: translate(-50%, -50%) scale(.55) rotate(0deg); }
+      100% { opacity: 0; transform: translate(calc(-50% + var(--dx, 0px)), calc(-50% - 86px)) scale(1.25) rotate(var(--rot, 0deg)); }
+    }
+
+    /* ============ RESPONSIVE ============ */
+    @media (max-width: 760px) {
+      .hero { padding-top: 5rem; }
+      .hero-orbit { width: 118vw; opacity: .42; }
+      .hero-tagline { max-width: 20rem; }
+      
+      .counter { grid-template-columns: repeat(2, 1fr); }
+      
+      .timeline-track { padding-right: 0; }
+      .timeline-track::before { right: 10px; }
+
+      .milestone,
+      .milestone:nth-child(odd),
+      .milestone:nth-child(even) {
+        width: calc(100% - 2.5rem);
+        margin: 0 0 1.6rem 0;
+        margin-right: 2.5rem;
+        padding: 1rem 0;
+        text-align: right;
+      }
+
+      .milestone::before,
+      .milestone:nth-child(odd)::before,
+      .milestone:nth-child(even)::before { display: none; }
+
+      .milestone::after,
+      .milestone:nth-child(odd)::after,
+      .milestone:nth-child(even)::after {
+        top: 1.75rem;
+        right: calc(-2.5rem + 6px);
+        left: auto;
+        transform: none;
+      }
+
+      .milestone.has-img {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+      .milestone-img {
+        align-self: center; 
+        margin-top: 0.5rem;
+        width: 140px; /* كبرناها شوي عالموبايل */
+        height: 140px;
+      }
+
+      .duo-grid {
+        gap: 1.5rem;
+        max-width: 280px; /* ضغطنا المساحة عالموبايل */
+      }
+
+      .album-deck {
+        width: 90vw;
+        max-width: 350px;
+        aspect-ratio: 4 / 5;
+      }
+
+      .medallion { width: 160px; }
+      .medallion .num { font-size: 3.8rem; }
+      .medallion .lbl { bottom: 10%; }
+      .medallion .star-bottom { display: none; }
+
+      .quote-stage { min-height: 10rem; }
+
+      .story-card { padding: 1.5rem 1.2rem; }
+      .story-text { font-size: 0.95rem; line-height: 1.9; }
+
+      .finale { padding-bottom: 6rem; }
+      .finale-actions { flex-direction: column; }
+      .finale-actions .btn { width: 100%; }
+    }
+
+    @media (max-width: 420px) {
+      .intro-sub strong { font-size: 1rem; }
+      .btn-open { padding: .8rem 2rem; font-size: 0.85rem; }
+      .album-card img { border-width: 4px; }
+      .album-caption { font-size: 0.9rem; }
+      .duo-name { font-size: 1.1rem; }
+      .duo-role { font-size: 0.7rem; }
+      .final-names { font-size: 1.4rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: .001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .001ms !important;
+      }
+      .name-mask > span { transform: none !important; }
+      [data-reveal] { opacity: 1 !important; transform: none !important; filter: none !important; }
+      #dust { display: none; }
+      .hero-orbit { display: none; }
+      .scroll-cue .line::after { display: none; }
+    }
+
+  </style>
+</head>
+<body>
+  <audio id="bgMusic" src="music.mp3" loop></audio>
+
+  <canvas id="dust" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <svg width="0" height="0" style="position: absolute; pointer-events: none;">
+    <defs>
+      <clipPath id="heartClip" clipPathUnits="objectBoundingBox">
+        <path d="M0.5,0.9 C0.5,0.9 0.05,0.65 0.05,0.35 C0.05,0.15 0.2,0.05 0.35,0.05 C0.45,0.05 0.5,0.2 0.5,0.2 C0.5,0.2 0.55,0.05 0.65,0.05 C0.8,0.05 0.95,0.15 0.95,0.35 C0.95,0.65 0.5,0.9 0.5,0.9 Z" />
+      </clipPath>
+    </defs>
+  </svg>
+
+  <div id="intro" class="enter">
+    <div class="intro-panel left" aria-hidden="true"></div>
+    <div class="intro-panel right" aria-hidden="true"></div>
+    <div class="intro-seam" aria-hidden="true"></div>
+    <div class="intro-content">
+      <p class="intro-kicker">عيد زواجٍ سعيد</p>
+      <svg class="intro-ring" viewBox="0 0 240 240" aria-hidden="true">
+        <defs>
+          <linearGradient id="ringGold" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#f0d9a4"/>
+            <stop offset=".5" stop-color="#b68a45"/>
+            <stop offset="1" stop-color="#f0d9a4"/>
+          </linearGradient>
+        </defs>
+        <circle class="ring-draw" cx="120" cy="120" r="106" fill="none" stroke="url(#ringGold)" stroke-width="1.2"/>
+        <circle class="ring-dash" cx="120" cy="120" r="94" fill="none" stroke="rgba(240,217,164,.3)" stroke-width=".8" stroke-dasharray="1 8"/>
+        <circle cx="120" cy="120" r="78" fill="none" stroke="rgba(240,217,164,.16)" stroke-width=".6"/>
+        <path class="ring-heart" d="M120 146 C120 146 84 123 84 99 C84 83 97 73 109 73 C114 73 120 77 120 82 C120 77 126 73 131 73 C143 73 156 83 156 99 C156 123 120 146 120 146Z" fill="none" stroke="url(#ringGold)" stroke-width="1.4"/>
+        <text class="ring-num" x="120" y="108" text-anchor="middle">31</text>
+        <circle cx="120" cy="14" r="2.2" fill="#f0d9a4"/>
+        <circle cx="120" cy="226" r="2.2" fill="#f0d9a4"/>
+        <path d="M14 120 L20 114 L26 120 L20 126 Z" fill="#f0d9a4" opacity=".55"/>
+        <path d="M214 120 L220 114 L226 120 L220 126 Z" fill="#f0d9a4" opacity=".55"/>
+      </svg>
+      <p class="intro-names">سعيد عمر الفاروق <span class="amp">&amp;</span> نعمة هاشم</p>
+      <p class="intro-sub"><strong>واحدٌ وثلاثون عاماً من الحبّ</strong>١٩٩٥ — ٢٠٢٦</p>
+      <button class="btn-open" id="openBtn" type="button">افتح الحكاية <span class="heart">♡</span></button>
+    </div>
+  </div>
+
+  <button class="music-btn" id="musicBtn" type="button" aria-label="تشغيل الموسيقى" aria-pressed="false">
+    <span class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+  </button>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero-orbit" id="heroOrbit" aria-hidden="true">
+        <svg viewBox="0 0 800 800">
+          <defs>
+            <linearGradient id="orbitGold" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f0d9a4" stop-opacity=".7"/>
+              <stop offset=".5" stop-color="#b68a45" stop-opacity=".22"/>
+              <stop offset="1" stop-color="#f0d9a4" stop-opacity=".7"/>
+            </linearGradient>
+          </defs>
+          <circle cx="400" cy="400" r="330" fill="none" stroke="url(#orbitGold)" stroke-width="1"/>
+          <circle class="orbit-spin" cx="400" cy="400" r="368" fill="none" stroke="rgba(240,217,164,.28)" stroke-width=".7" stroke-dasharray="1 10"/>
+          <circle class="orbit-spin-rev" cx="400" cy="400" r="292" fill="none" stroke="rgba(240,217,164,.2)" stroke-width=".6" stroke-dasharray="2 14"/>
+          <g fill="#d9b56a" opacity=".55">
+            <path d="M400 38 L406 64 L432 70 L406 76 L400 102 L394 76 L368 70 L394 64 Z"/>
+            <path d="M400 698 L406 724 L432 730 L406 736 L400 762 L394 736 L368 730 L394 724 Z"/>
+            <path d="M38 400 L64 394 L70 368 L76 394 L102 400 L76 406 L70 432 L64 406 Z"/>
+            <path d="M698 400 L724 394 L730 368 L736 394 L762 400 L736 406 L730 432 L724 406 Z"/>
+          </g>
+          <circle cx="400" cy="70" r="2.5" fill="#f0d9a4"/>
+          <circle cx="400" cy="730" r="2.5" fill="#f0d9a4"/>
+          <circle cx="70" cy="400" r="2.5" fill="#f0d9a4"/>
+          <circle cx="730" cy="400" r="2.5" fill="#f0d9a4"/>
+        </svg>
+      </div>
+
+      <div class="hero-inner">
+        <p class="eyebrow hero-kicker">عيد زواجٍ سعيد</p>
+        <div class="hero-date"><span>١٩٩٥</span><i></i><span>٢٠٢٦</span></div>
+        <h1 class="hero-names">
+          <span class="name-mask name-1"><span>سعيد عمر الفاروق</span></span>
+          <span class="amp" aria-hidden="true">&amp;</span>
+          <span class="name-mask name-2"><span>نعمة هاشم</span></span>
+        </h1>
+        <div class="divider" aria-hidden="true">
+          <span class="line"></span>
+          <svg viewBox="0 0 24 24"><path d="M12 0 L14.6 9.4 L24 12 L14.6 14.6 L12 24 L9.4 14.6 L0 12 L9.4 9.4 Z"/></svg>
+          <span class="line"></span>
+        </div>
+        <p class="hero-years"><span class="num">واحدٌ وثلاثون</span> عاماً من الحبّ</p>
+        <p class="hero-tagline">وما زال القلبُ يقول: أنتِ البداية… وأنتِ الحكاية كلّها.</p>
+      </div>
+
+      <a class="scroll-cue" href="#story">مرّروا لتكملوا الحكاية<span class="line" aria-hidden="true"></span></a>
+    </section>
+
+    <!-- ============ STORY ============ -->
+    <section class="section" id="story">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Our Story</p>
+          <h2>قلبان… و<em>وعدٌ</em> لم ينتهِ</h2>
+          <div class="divider" aria-hidden="true">
+            <span class="line"></span>
+            <svg viewBox="0 0 24 24"><path d="M12 0 L14.6 9.4 L24 12 L14.6 14.6 L12 24 L9.4 14.6 L0 12 L9.4 9.4 Z"/></svg>
+            <span class="line"></span>
+          </div>
+        </div>
+
+        <div class="story-card" data-reveal style="--d:.12s">
+          <i class="corner c1" aria-hidden="true"></i>
+          <i class="corner c2" aria-hidden="true"></i>
+          <i class="corner c3" aria-hidden="true"></i>
+          <i class="corner c4" aria-hidden="true"></i>
+          <svg class="mini-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0 L14.6 9.4 L24 12 L14.6 14.6 L12 24 L9.4 14.6 L0 12 L9.4 9.4 Z"/></svg>
+          <p class="story-text">
+            في سنةٍ من سنوات العمر، التقى قلبان، فصار للدنيا طعمٌ آخر.
+            <span class="line-gap"></span>
+            لم يكونا يعلمان أنّ ذاك اللقاء سيكتب أجمل <span>٣١ عاماً</span>…
+            لكنّ الحبّ، حين يكون صادقاً، يعرف كيف يكبر.
+            <span class="line-gap"></span>
+            سنةٌ تُضاف إلى سنة، وضحكةٌ إلى ضحكة، ويدٌ لا تترك يداً.
+            ومن كلّ ذلك… بُنِيَ بيتٌ اسمه: <span>نحن</span>.
+          </p>
+          <p class="story-sign">سعيد عمر الفاروق &amp; نعمة</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DUO PROFILES ============ -->
+    <section class="section duo-section" id="duo">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Two Hearts</p>
+          <h2>نصفان <em>اكتملا</em></h2>
+          <div class="divider" aria-hidden="true">
+            <span class="line"></span>
+            <svg viewBox="0 0 24 24"><path d="M12 0 L14.6 9.4 L24 12 L14.6 14.6 L12 24 L9.4 14.6 L0 12 L9.4 9.4 Z"/></svg>
+            <span class="line"></span>
+          </div>
+        </div>
+
+        <div class="duo-grid">
+          <div class="duo-card" data-reveal style="--d:.1s">
+            <div class="duo-photo">
+              <img src="saeed.jpg" alt="سعيد عمر الفاروق" loading="lazy">
+            </div>
+            <h3 class="duo-name">سعيد عمر الفاروق</h3>
+            <p class="duo-role">القلب الكبير</p>
+          </div>
+          <div class="duo-card" data-reveal style="--d:.2s">
+            <div class="duo-photo">
+              <img src="nima.jpg" alt="نعمة هاشم" loading="lazy">
+            </div>
+            <h3 class="duo-name">نعمة هاشم</h3>
+            <p class="duo-role">نبض الحكاية</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 31 YEARS ============ -->
+    <section class="section years" id="years">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Counting The Years</p>
+          <h2>واحدٌ وثلاثون <em>عاماً</em>…</h2>
+        </div>
+
+        <div class="years-orbit" id="yearsOrbit" data-reveal aria-label="واحد وثلاثون عاماً من الزواج">
+          <div class="orbit-ring" aria-hidden="true"></div>
+          <div class="orbit-ring dashed" aria-hidden="true"></div>
+          <div class="orbit-ring inner" aria-hidden="true"></div>
+          <p class="years-number" aria-hidden="true">31</p>
+          <span class="years-label" aria-hidden="true">عاماً من الحبّ</span>
+        </div>
+
+        <p class="years-note" data-reveal style="--d:.1s">ليست مجرّد سنين… بل حكايةٌ كاملة، كتبتها يدٌ بيد، وقلبٌ بقلب.</p>
+
+        <div class="counter" data-reveal style="--d:.18s" aria-label="الوقت المنقضي منذ الزواج">
+          <div class="counter-cell">
+            <span class="counter-value" id="cDays">—</span>
+            <span class="counter-label">يوماً</span>
+          </div>
+          <div class="counter-cell">
+            <span class="counter-value" id="cHours">—</span>
+            <span class="counter-label">ساعة</span>
+          </div>
+          <div class="counter-cell">
+            <span class="counter-value" id="cMins">—</span>
+            <span class="counter-label">دقيقة</span>
+          </div>
+          <div class="counter-cell">
+            <span class="counter-value" id="cSecs">—</span>
+            <span class="counter-label">ثانية</span>
+          </div>
+        </div>
+        <p class="counter-note" data-reveal style="--d:.24s">منذ ١٠ نوفمبر ١٩٩٥… وما زال العدّ مستمراً.</p>
+      </div>
+    </section>
+
+    <!-- ============ TIMELINE ============ -->
+    <section class="section" id="journey">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">The Journey</p>
+          <h2>محطّات <em>الحكاية</em></h2>
+          <div class="divider" aria-hidden="true">
+            <span class="line"></span>
+            <svg viewBox="0 0 24 24"><path d="M12 0 L14.6 9.4 L24 12 L14.6 14.6 L12 24 L9.4 14.6 L0 12 L9.4 9.4 Z"/></svg>
+            <span class="line"></span>
+          </div>
+        </div>
+
+        <div class="timeline-track">
+          <article class="milestone" data-reveal style="--d:.04s">
+            <div class="year">1995</div>
+            <h3>البداية</h3>
+            <p>قالا «نعم»… ومن يومها، صار للعمر معنى جديد.</p>
+          </article>
+
+          <article class="milestone has-img" data-reveal style="--d:.1s">
+            <div class="milestone-text">
+              <div class="year">1999</div>
+              <h3>نوران</h3>
+              <p>جاءت نوران… فأشرق البيت بضحكةٍ جديدة، وصار للحبّ وجهٌ صغير.</p>
+            </div>
+            <div class="milestone-img">
+              <img src="photo6.jpg" alt="نوران في العمرة" loading="lazy">
+            </div>
+          </article>
+
+          <article class="milestone has-img" data-reveal style="--d:.16s">
+            <div class="milestone-text">
+              <div class="year">2002</div>
+              <h3>عمر</h3>
+              <p>ثم جاء عمر… ليكتمل الفرح، ويمتلئ البيت ضجيجاً جميلاً.</p>
+            </div>
+            <div class="milestone-img">
+              <img src="photo5.jpg" alt="عمر في طفولته" loading="lazy">
+            </div>
+          </article>
+
+          <article class="milestone" data-reveal style="--d:.22s">
+            <div class="year">2005</div>
+            <h3>البيت</h3>
+            <p>بين جدرانٍ صغيرة، كبر الحبّ… وكبرت معه الأحلام.</p>
+          </article>
+
+          <article class="milestone" data-reveal style="--d:.28s">
+            <div class="year">2015</div>
+            <h3>الحكاية</h3>
+            <p>صار للبيت صوتٌ يضحك، وللأيام طعمٌ لا يُشبه غيره.</p>
+          </article>
+
+          <article class="milestone" data-reveal style="--d:.34s">
+            <div class="year">2019</div>
+            <h3>كبر الأولاد</h3>
+            <p>كبر الأولاد… واكتملت السعادة بحضورهم.</p>
+          </article>
+
+          <article class="milestone" data-reveal style="--d:.4s">
+            <div class="year">2026</div>
+            <h3>الحبّ</h3>
+            <p>بعد ٣١ عاماً… ما زال القلب يقول: أنتِ، وأنتِ فقط.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3D ALBUM ============ -->
+    <section class="section album-section" id="album">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Vintage Album</p>
+          <h2>ألبوم <em>الذكريات</em></h2>
+          <div class="divider" aria-hidden="true">
+            <span class="line"></span>
+            <svg viewBox="0 0 24 24"><path d="M12 0 L14.6 9.4 L24 12 L14.6 14.6 L12 24 L9.4 14.6 L0 12 L9.4 9.4 Z"/></svg>
+            <span class="line"></span>
+          </div>
+        </div>
+
+        <div class="album-deck" id="albumDeck">
+          <!-- Cards will be injected by JS -->
+        </div>
+
+        <div class="album-controls" data-reveal style="--d:.2s">
+          <button class="album-btn" id="prevBtn" type="button">السابق</button>
+          <button class="album-btn" id="nextBtn" type="button">الصورة التالية</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ QUOTE ============ -->
+    <section class="section quote-section" id="letter">
+      <div class="container">
+        <p class="eyebrow" data-reveal>A Love Letter</p>
+        <div class="divider" aria-hidden="true">
+          <span class="line"></span>
+          <svg viewBox="0 0 24 24"><path d="M12 0 L14.6 9.4 L24 12 L14.6 14.6 L12 24 L9.4 14.6 L0 12 L9.4 9.4 Z"/></svg>
+          <span class="line"></span>
+        </div>
+        <div class="quote-stage" data-reveal style="--d:.06s">
+          <blockquote id="quoteText" aria-live="polite">«الحبّ ليس أن تبقى… بل أن تختار البقاء كلّ يوم.»</blockquote>
+        </div>
+        <div class="quote-dots" id="quoteDots" aria-label="اقتباسات"></div>
+      </div>
+    </section>
+
+    <!-- ============ FINALE ============ -->
+    <section class="section finale" id="wish">
+      <div class="container">
+        <div class="medallion" data-reveal>
+          <svg viewBox="0 0 200 200" aria-hidden="true">
+            <circle cx="100" cy="100" r="92" fill="none" stroke="rgba(240,217,164,.3)" stroke-width=".8"/>
+            <circle class="med-spin" cx="100" cy="100" r="82" fill="none" stroke="rgba(240,217,164,.22)" stroke-width=".7" stroke-dasharray="1 7"/>
+            <g fill="#d9b56a" opacity=".55">
+              <path d="M100 8 L104 22 L118 26 L104 30 L100 44 L96 30 L82 26 L96 22 Z"/>
+              <path class="star-bottom" d="M100 156 L104 170 L118 174 L104 178 L100 192 L96 178 L82 174 L96 170 Z"/>
+              <path d="M8 100 L22 96 L26 82 L30 96 L44 100 L30 104 L26 118 L22 104 Z"/>
+              <path d="M156 100 L170 96 L174 82 L178 96 L192 100 L178 104 L174 118 L170 104 Z"/>
+            </g>
+          </svg>
+          <span class="num">31</span>
+          <span class="lbl">عاماً</span>
+        </div>
+
+        <h2 data-reveal style="--d:.06s">إلى الـ <em>٣١</em> القادمة…</h2>
+        <p class="finale-text" data-reveal style="--d:.12s">وكلّ عامٍ وأنتما بخير، وقلباكما على العهد نفسه: حبٌّ يكبر، وبيتٌ يدفأ، وحكايةٌ لا تنتهي.</p>
+        <p class="final-names" data-reveal style="--d:.18s">سعيد عمر الفاروق <span class="amp">&amp;</span> نعمة هاشم</p>
+
+        <div class="finale-actions" data-reveal style="--d:.24s">
+          <button class="btn btn-gold" id="replayBtn" type="button">أعيدوا الحكاية <span aria-hidden="true">♡</span></button>
+          <button class="btn btn-ghost" id="shareBtn" type="button">شاركوا الحبّ</button>
+        </div>
+
+        <p class="final-footer" data-reveal style="--d:.3s">صُنع بحبّ <span class="heart">♡</span> · ١٠ نوفمبر ٢٠٢٦</p>
+      </div>
+    </section>
+
+<script>
+(() => {
+  'use strict';
+
+  const body = document.body;
+  const intro = document.getElementById('intro');
+  const openBtn = document.getElementById('openBtn');
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+
+  /* ---------- INTRO ---------- */
+  let opened = false;
+  let userMuted = false;
+
+  function resetScroll() {
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }
+
+  function openExperience() {
+    if (opened) return;
+    opened = true;
+    openBtn.disabled = true;
+    body.classList.add('is-open');
+    intro.classList.add('open');
+    resetScroll();
+    requestAnimationFrame(() => {
+      resetScroll();
+      setTimeout(resetScroll, 60);
+    });
+    setTimeout(() => { intro.style.display = 'none'; }, 1600);
+    if (!userMuted) startMusic();
+    setTimeout(() => burst(window.innerWidth / 2, window.innerHeight * 0.52, 34), 700);
+  }
+
+  openBtn.addEventListener('click', openExperience);
+
+  window.addEventListener('load', () => {
+    if (!opened) {
+      resetScroll();
+      setTimeout(resetScroll, 120);
+    }
+  });
+
+  /* ---------- MUSIC ---------- */
+  const bgMusic = document.getElementById('bgMusic');
+  let isPlaying = false;
+
+  function startMusic() {
+    bgMusic.play().then(() => {
+      isPlaying = true;
+      syncMusicBtn();
+    }).catch((err) => {
+      console.error("Audio play failed:", err);
+    });
+  }
+
+  function stopMusic() {
+    bgMusic.pause();
+    isPlaying = false;
+    syncMusicBtn();
+  }
+
+  const musicBtn = document.getElementById('musicBtn');
+  function syncMusicBtn() {
+    musicBtn.classList.toggle('playing', isPlaying);
+    musicBtn.setAttribute('aria-pressed', String(isPlaying));
+    musicBtn.setAttribute('aria-label', isPlaying ? 'إيقاف الموسيقى' : 'تشغيل الموسيقى');
+  }
+  
+  musicBtn.addEventListener('click', () => {
+    if (isPlaying) {
+      userMuted = true;
+      stopMusic();
+    } else {
+      userMuted = false;
+      startMusic();
+    }
+  });
+
+  /* ---------- COUNTER ---------- */
+  const WEDDING = new Date(1995, 10, 10, 0, 0, 0);
+  const nf = new Intl.NumberFormat('en-US');
+  const cDays = document.getElementById('cDays');
+  const cHours = document.getElementById('cHours');
+  const cMins = document.getElementById('cMins');
+  const cSecs = document.getElementById('cSecs');
+
+  function updateCounter() {
+    const totalSec = Math.max(0, Math.floor((Date.now() - WEDDING.getTime()) / 1000));
+    cDays.textContent = nf.format(Math.floor(totalSec / 86400));
+    cHours.textContent = nf.format(Math.floor(totalSec / 3600));
+    cMins.textContent = nf.format(Math.floor(totalSec / 60));
+    cSecs.textContent = nf.format(totalSec);
+  }
+  updateCounter();
+  setInterval(updateCounter, 1000);
+
+  /* ---------- 31 DOTS ---------- */
+  const orbit = document.getElementById('yearsOrbit');
+  const dots = [];
+  for (let i = 0; i < 31; i++) {
+    const d = document.createElement('i');
+    d.className = 'year-dot';
+    d.style.setProperty('--i', i);
+    d.setAttribute('aria-hidden', 'true');
+    orbit.appendChild(d);
+    dots.push(d);
+  }
+
+  function layoutDots() {
+    const r = Math.max(0, orbit.clientWidth / 2 - 17);
+    dots.forEach((d, i) => {
+      d.style.transform = `translate(-50%, -50%) rotate(${i * (360 / 31)}deg) translateY(${-r}px)`;
+    });
+  }
+  layoutDots();
+  window.addEventListener('resize', layoutDots);
+
+  /* ---------- SCROLL REVEAL ---------- */
+  const revealEls = document.querySelectorAll('[data-reveal]');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+    revealEls.forEach((el) => io.observe(el));
+  } else {
+    revealEls.forEach((el) => el.classList.add('in'));
+  }
+
+  /* ---------- 3D ALBUM LOGIC ---------- */
+  const albumDeck = document.getElementById('albumDeck');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  
+  const albumData = [
+    { src: 'photo1.jpg', caption: 'ذكرى من رحلتنا' },
+    { src: 'photo2.jpg', caption: 'لحظات لا تُنسى' },
+    { src: 'photo3.jpg', caption: 'رحلة بالقارب' },
+    { src: 'photo4.jpg', caption: 'في أطهر بقاع الأرض' },
+    { src: 'photo5.jpg', caption: 'طفولة عمر' },
+    { src: 'photo6.jpg', caption: 'نوران وعمر' },
+    { src: 'photo7.jpg', caption: 'العائلة' }
+  ];
+
+  let currentIndex = 0;
+
+  function renderAlbum() {
+    albumDeck.innerHTML = '';
+    for (let i = albumData.length - 1; i >= 0; i--) {
+      const data = albumData[i];
+      const card = document.createElement('div');
+      card.className = 'album-card';
+      card.innerHTML = `
+        <img src="${data.src}" alt="${data.caption}" loading="lazy">
+        <p class="album-caption">${data.caption}</p>
+      `;
+      
+      card.addEventListener('click', () => {
+        if (i === currentIndex) {
+          nextPhoto();
+        }
+      });
+
+      albumDeck.appendChild(card);
+    }
+    updateAlbumClasses();
+  }
+
+  function updateAlbumClasses() {
+    const cards = albumDeck.querySelectorAll('.album-card');
+    const total = albumData.length;
+    
+    for (let i = 0; i < total; i++) {
+      const dataIndex = i;
+      const domIndex = total - 1 - dataIndex; 
+      const card = cards[domIndex];
+
+      if (dataIndex < currentIndex) {
+        card.classList.add('is-flipped');
+        card.classList.remove('is-top', 'is-next');
+      } else if (dataIndex === currentIndex) {
+        card.classList.remove('is-flipped');
+        card.classList.add('is-top');
+        card.classList.remove('is-next');
+      } else if (dataIndex === currentIndex + 1) {
+        card.classList.remove('is-flipped');
+        card.classList.remove('is-top');
+        card.classList.add('is-next');
+      } else {
+        card.classList.remove('is-flipped', 'is-top', 'is-next');
+      }
+    }
+  }
+
+  function nextPhoto() {
+    if (currentIndex < albumData.length - 1) {
+      currentIndex++;
+      updateAlbumClasses();
+    }
+  }
+
+  function prevPhoto() {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateAlbumClasses();
+    }
+  }
+
+  nextBtn.addEventListener('click', nextPhoto);
+  prevBtn.addEventListener('click', prevPhoto);
+
+  renderAlbum();
+
+  /* ---------- QUOTES ---------- */
+  const quotes = [
+    'الحبّ ليس أن تبقى… بل أن تختار البقاء كلّ يوم.',
+    'كلّ عامٍ وأنتما الحبّ… وكلّ عامٍ وأنتِ أجمل.',
+    'بيتٌ بناه قلبان… لا تهدمه السنين.',
+    'ليس أجمل من حكايةٍ… بطلها اثنان، ونهايتها: ما زلنا سوا.'
+  ];
+  const quoteEl = document.getElementById('quoteText');
+  const quoteDots = document.getElementById('quoteDots');
+  let qIndex = 0;
+  let qTimer = null;
+
+  quotes.forEach((_, i) => {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'quote-dot' + (i === 0 ? ' active' : '');
+    b.setAttribute('aria-label', 'اقتباس ' + (i + 1));
+    b.addEventListener('click', () => setQuote(i, true));
+    quoteDots.appendChild(b);
+  });
+
+  function renderQuote(i) {
+    quoteEl.textContent = '«' + quotes[i] + '»';
+    Array.from(quoteDots.children).forEach((d, j) => {
+      d.classList.toggle('active', j === i);
+    });
+  }
+
+  function setQuote(i, manual) {
+    if (manual && i === qIndex) {
+      restartQuoteTimer();
+      return;
+    }
+    qIndex = i;
+    quoteEl.classList.add('fade');
+    setTimeout(() => {
+      renderQuote(i);
+      quoteEl.classList.remove('fade');
+    }, 380);
+    if (manual) restartQuoteTimer();
+  }
+
+  function nextQuote() {
+    setQuote((qIndex + 1) % quotes.length, false);
+  }
+
+  function restartQuoteTimer() {
+    clearInterval(qTimer);
+    qTimer = setInterval(nextQuote, 8000);
+  }
+
+  renderQuote(0);
+  restartQuoteTimer();
+
+  /* ---------- SHARE ---------- */
+  const shareBtn = document.getElementById('shareBtn');
+  const toast = document.getElementById('toast');
+  let toastTimer = null;
+
+  function showToast(msg) {
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove('show'), 2800);
+  }
+
+  shareBtn.addEventListener('click', async () => {
+    const url = window.location.href;
+    const data = {
+      title: 'عيد زواج سعيد — سعيد عمر الفاروق & نعمة هاشم',
+      text: 'واحدٌ وثلاثون عاماً من الحبّ ♡',
+      url
+    };
+    try {
+      if (navigator.share) {
+        await navigator.share(data);
+      } else if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(url);
+        showToast('تم نسخ الرابط ♡');
+      } else {
+        showToast('انسخ الرابط من شريط العنوان ♡');
+      }
+    } catch (err) {
+      if (err && err.name !== 'AbortError') {
+        showToast('تعذّر المشاركة… انسخ الرابط من شريط العنوان');
+      }
+    }
+  });
+
+  /* ---------- REPLAY ---------- */
+  const replayBtn = document.getElementById('replayBtn');
+  replayBtn.addEventListener('click', () => {
+    window.scrollTo(0, 0);
+    body.classList.remove('is-open');
+    stopMusic(); 
+    userMuted = false; 
+    intro.style.display = 'grid';
+    intro.classList.add('open');
+    void intro.offsetWidth;
+    requestAnimationFrame(() => {
+      intro.classList.remove('open');
+      intro.classList.remove('enter');
+      void intro.offsetWidth;
+      intro.classList.add('enter');
+    });
+    opened = false;
+    openBtn.disabled = false;
+    
+    currentIndex = 0;
+    updateAlbumClasses();
+
+    setTimeout(() => burst(window.innerWidth / 2, window.innerHeight * 0.5, 24), 850);
+  });
+
+  /* ---------- CLICK HEARTS ---------- */
+  let lastHeart = 0;
+  document.addEventListener('click', (e) => {
+    if (e.target.closest('button, a, input, textarea, select, .album-card')) return;
+    const now = performance.now();
+    if (now - lastHeart < 120) return;
+    lastHeart = now;
+    const h = document.createElement('span');
+    h.className = 'click-heart';
+    h.textContent = '♥';
+    h.style.left = e.clientX + 'px';
+    h.style.top = e.clientY + 'px';
+    h.style.setProperty('--dx', (Math.random() * 50 - 25).toFixed(1) + 'px');
+    h.style.setProperty('--rot', (Math.random() * 50 - 25).toFixed(1) + 'deg');
+    document.body.appendChild(h);
+    setTimeout(() => h.remove(), 1400);
+  }, { passive: true });
+
+  /* ---------- GOLD DUST ---------- */
+  const canvas = document.getElementById('dust');
+  const dctx = canvas.getContext('2d');
+  const GOLD = '217, 181, 106';
+  let W = 0, H = 0, DPR = 1;
+  let ambient = [];
+  const sparks = [];
+
+  function resizeCanvas() {
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    W = window.innerWidth;
+    H = window.innerHeight;
+    canvas.width = Math.floor(W * DPR);
+    canvas.height = Math.floor(H * DPR);
+    canvas.style.width = W + 'px';
+    canvas.style.height = H + 'px';
+    dctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    buildDust();
+  }
+
+  function newDust() {
+    return {
+      x: Math.random() * W,
+      y: Math.random() * H,
+      r: Math.random() * 1.5 + 0.35,
+      vy: -(Math.random() * 0.16 + 0.035),
+      vx: (Math.random() - 0.5) * 0.07,
+      a: Math.random() * 0.4 + 0.06,
+      tw: Math.random() * Math.PI * 2,
+      tws: Math.random() * 0.018 + 0.004,
+      kind: Math.random() < 0.05 ? 'heart' : (Math.random() < 0.11 ? 'star' : 'dot')
+    };
+  }
+
+  function buildDust() {
+    const count = Math.round(Math.min(95, Math.max(32, W / 17)));
+    ambient = Array.from({ length: count }, newDust);
+  }
+
+  function drawStar(x, y, r, alpha) {
+    dctx.save();
+    dctx.translate(x, y);
+    dctx.strokeStyle = `rgba(${GOLD},${alpha})`;
+    dctx.lineWidth = 0.75;
+    dctx.beginPath();
+    dctx.moveTo(0, -r);
+    dctx.lineTo(0, r);
+    dctx.moveTo(-r, 0);
+    dctx.lineTo(r, 0);
+    dctx.stroke();
+    dctx.restore();
+  }
+
+  function drawHeart(x, y, size, alpha) {
+    dctx.save();
+    dctx.translate(x, y);
+    dctx.scale(size / 16, size / 16);
+    dctx.beginPath();
+    dctx.moveTo(0, 5);
+    dctx.bezierCurveTo(-9, -2, -7, -9, 0, -4);
+    dctx.bezierCurveTo(7, -9, 9, -2, 0, 5);
+    dctx.closePath();
+    dctx.fillStyle = `rgba(${GOLD},${alpha})`;
+    dctx.fill();
+    dctx.restore();
+  }
+
+  function burst(x, y, n) {
+    if (reduced) return;
+    for (let i = 0; i < n; i++) {
+      const ang = Math.random() * Math.PI * 2;
+      const sp = Math.random() * 3.4 + 0.7;
+      sparks.push({
+        x, y,
+        vx: Math.cos(ang) * sp,
+        vy: Math.sin(ang) * sp - 0.7,
+        r: Math.random() * 1.8 + 0.5,
+        life: 1,
+        decay: Math.random() * 0.011 + 0.007
+      });
+    }
+  }
+
+  function frame() {
+    dctx.clearRect(0, 0, W, H);
+
+    for (const p of ambient) {
+      p.y += p.vy;
+      p.x += p.vx + Math.sin(p.tw) * 0.06;
+      p.tw += p.tws;
+      if (p.y < -12) { p.y = H + 12; p.x = Math.random() * W; }
+      if (p.x < -12) p.x = W + 12;
+      if (p.x > W + 12) p.x = -12;
+      const alpha = Math.max(0, p.a * (0.6 + 0.4 * Math.sin(p.tw)));
+      if (p.kind === 'heart') {
+        drawHeart(p.x, p.y, p.r * 4.8, alpha * 0.85);
+      } else if (p.kind === 'star') {
+        drawStar(p.x, p.y, p.r * 3.1, alpha);
+      } else {
+        dctx.beginPath();
+        dctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        dctx.fillStyle = `rgba(${GOLD},${alpha})`;
+        dctx.fill();
+      }
+    }
+
+    for (let i = sparks.length - 1; i >= 0; i--) {
+      const s = sparks[i];
+      s.x += s.vx;
+      s.y += s.vy;
+      s.vy += 0.022;
+      s.vx *= 0.992;
+      s.life -= s.decay;
+      if (s.life <= 0) {
+        sparks.splice(i, 1);
+        continue;
+      }
+      dctx.beginPath();
+      dctx.arc(s.x, s.y, Math.max(0.1, s.r * s.life), 0, Math.PI * 2);
+      dctx.fillStyle = `rgba(${GOLD},${s.life})`;
+      dctx.fill();
+    }
+
+    requestAnimationFrame(frame);
+  }
+
+  if (!reduced) {
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
+    requestAnimationFrame(frame);
+  }
+
+  /* ---------- SCROLL PROGRESS + PARALLAX ---------- */
+  const progress = document.getElementById('progress');
+  const heroOrbit = document.getElementById('heroOrbit');
+  let scrollQueued = false;
+
+  function onScroll() {
+    if (scrollQueued) return;
+    scrollQueued = true;
+    requestAnimationFrame(() => {
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      const p = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
+      progress.style.transform = `scaleX(${p})`;
+      if (!reduced && heroOrbit) {
+        heroOrbit.style.transform = `translate(-50%, calc(-50% + ${(window.scrollY * 0.08).toFixed(1)}px))`;
+      }
+      scrollQueued = false;
+    });
+  }
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  onScroll();
+})();
+</script>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript>
+    <style>
+      #intro { display: none !important; }
+      body { overflow: auto !important; }
+      [data-reveal] { opacity: 1 !important; transform: none !important; filter: none !important; }
+      .music-btn { display: none !important; }
+    </style>
+  </noscript>
+</body>
+</html>
